@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'algorithm', link: '/algorithm' }
+      { text: 'algorithm', link: '/algorithm' },
       { text: 'nvim', link: '/nvim'}
     ],
 
