@@ -10,6 +10,6 @@ the tabs above in nvim, like Lazynvim, usually are "Buffer-lines", actually buff
 
 ## the shortcut in nvim
 - switch the buffers: `L`(next)/`H`(prev)  the capital
-- delete the buffers: <leader>bd
-- delete all buffers expert the current one:  `<leader>bo`
-- create a new tab: `<leader>bb`
+- delete the buffers: leader bd
+- delete all buffers expert the current one:  `leader bo`
+- create a new tab: `leader bb`
