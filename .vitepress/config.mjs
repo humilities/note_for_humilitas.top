@@ -4,7 +4,7 @@ import mathjax3 from 'markdown-it-mathjax3'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "humilitas",
-  description: "my note - 用心记录，持续成长",
+  description: "my note",
   lang: 'zh-CN',
 
   // 启用深色模式
@@ -110,7 +110,6 @@ export default defineConfig({
 
     // 页脚
     footer: {
-      message: '用心记录，持续成长 💖',
       copyright: 'Copyright © 2024 Humilitas'
     },
 

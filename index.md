@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "Humilitas Occidit Superbiam"
-  text: "谦逊战胜傲慢"
-  tagline: 记录技术探索 · 分享学习心得 · 沉淀思考碎片
+  text: "duoduo"
+  tagline: i love the way you lie
   actions:
     - theme: brand
-      text: 🎯 算法刷题
+      text: 🎯 cf
       link: /algorithm
     - theme: alt
-      text: ⚙️ Neovim 配置
+      text: ⚙️ Neovim 
       link: /nvim
     - theme: alt
       text: 📚 关于我
@@ -20,55 +20,55 @@ hero:
 features:
   - icon: 💻
     title: 技术笔记
-    details: 前端开发、后端技术、工具使用，记录日常开发中的技术要点和解决方案
+    details: 前端开发、后端技术、工具使用
     link: /tech
   
   - icon: 🎯
     title: 算法学习
-    details: Codeforces 刷题记录，算法思路分析，数据结构深度解析
+    details: Codeforces 刷题记录
     link: /algorithm
   
   - icon: ⚙️
     title: 工具配置
-    details: Neovim、终端、开发环境等工具的配置心得和使用技巧
+    details: Neovim、终端、开发环境等工具
     link: /nvim
   
   - icon: 📚
     title: 学习笔记
-    details: 课程学习、书籍阅读、技术文档的整理与总结
+    details: 课程学习、书籍阅读、技术文档
     link: /notes
   
   - icon: 🔧
     title: 项目实践
-    details: 个人项目开发记录，从想法到实现的完整过程
+    details: 个人项目开发记录
     link: /projects
   
   - icon: 💭
     title: 思考随笔
-    details: 关于学习方法、技术思考、生活感悟的随笔记录
+    details: 随笔记录
     link: /thoughts
 ---
 
 <!-- 自定义首页内容 -->
 <div class="home-extra">
   <div class="stats-section">
-    <h2>📊 学习统计</h2>
+    <h2>Superbiam</h2>
     <div class="stats-grid">
       <div class="stat-card">
-        <div class="stat-number">75+</div>
-        <div class="stat-label">篇笔记</div>
+        <div class="stat-number">1</div>
+        <div class="stat-label">个多多</div>
       </div>
       <div class="stat-card">
-        <div class="stat-number">12</div>
-        <div class="stat-label">个分类</div>
+        <div class="stat-number">2</div>
+        <div class="stat-label">个少少</div>
       </div>
       <div class="stat-card">
-        <div class="stat-number">186</div>
-        <div class="stat-label">天坚持</div>
+        <div class="stat-number">3</div>
+        <div class="stat-label">个火枪手</div>
       </div>
       <div class="stat-card">
-        <div class="stat-number">3.2k</div>
-        <div class="stat-label">次访问</div>
+        <div class="stat-number">4</div>
+        <div class="stat-label">个手指头</div>
       </div>
     </div>
   </div>
