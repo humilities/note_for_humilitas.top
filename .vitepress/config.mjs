@@ -1,9 +1,17 @@
 import { defineConfig } from 'vitepress'
+import mathjax3 from 'markdown-it-mathjax3'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "humilitas occidit superbiam",
   description: "my note",
+
+  markdown: {
+    //在这里把插件挂载上去
+    config: (md) => {
+      md.use(mathjax3)
+    }
+  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
