@@ -5,10 +5,9 @@ layout: home
 hero:
   name: "humilitas occidit superbiam"
   text: "my note"
-  tagline: My great project tagline
   actions:
     - theme: brand
-      text: algorithm
+      text: cf
       link: /algorithm
     - theme: alt
       text: nvim

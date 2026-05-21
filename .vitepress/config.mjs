@@ -3,7 +3,7 @@ import mathjax3 from 'markdown-it-mathjax3'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "humilitas occidit superbiam",
+  title: "humilitas",
   description: "my note",
 
   markdown: {
