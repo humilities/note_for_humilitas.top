@@ -9,13 +9,13 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'algorithm', link: '/algorithm' },
+      { text: 'cf', link: '/algorithm' },
       { text: 'nvim', link: '/nvim'}
     ],
 
     sidebar: [
       {
-        text: 'algoritm',
+        text: 'cf',
         items: [
           {
             text: '26.3',
