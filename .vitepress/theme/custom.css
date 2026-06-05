@@ -17,7 +17,7 @@
   --vp-c-divider: rgba(59, 38, 48, 0.1);
   --vp-c-gutter: rgba(59, 38, 48, 0.08);
 
-  --vp-code-bg: rgba(236, 72, 153, 0.12);
+  --vp-code-bg: rgba(190, 24, 93, 0.12);
   --vp-code-block-bg: rgba(255, 250, 244, 0.64);
 
   --cream: #f5e2c2;
@@ -378,10 +378,10 @@ body::before {
 }
 
 .vp-doc h1 {
-  color: var(--ink);
+  color: var(--rose-deep);
   letter-spacing: 0;
   border-bottom: 1px solid rgba(59, 38, 48, 0.12);
-  text-shadow: 0 0 24px rgba(244, 114, 182, 0.32);
+  text-shadow: 0 8px 28px rgba(190, 24, 93, 0.16);
 }
 
 .vp-doc h2 {
@@ -418,10 +418,12 @@ body::before {
 }
 
 .vp-doc :not(pre) > code {
-  color: #f2d4aa !important;
-  border: 1px solid rgba(244, 114, 182, 0.28);
+  color: #7f174a !important;
+  border: 1px solid rgba(190, 24, 93, 0.24);
   border-radius: 8px;
-  background: rgba(244, 114, 182, 0.14) !important;
+  background: rgba(190, 24, 93, 0.12) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 250, 244, 0.38);
+  font-weight: 700;
 }
 
 .vp-doc div[class*='language-'] {
