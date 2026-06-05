@@ -84,11 +84,12 @@ features:
 .stats-section h2 {
   text-align: center;
   font-size: 2.5rem;
-  background: linear-gradient(135deg, #3b82f6 0%, #ec4899 100%);
+  background: linear-gradient(135deg, #3b2630 0%, #be185d 48%, #ec4899 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 3rem;
+  text-shadow: 0 0 32px rgba(244, 114, 182, 0.22);
 }
 
 .stats-grid {
@@ -98,26 +99,42 @@ features:
 }
 
 .stat-card {
-  background: rgba(26, 34, 56, 0.6);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(236, 72, 153, 0.2);
+  background: linear-gradient(135deg, rgba(255, 250, 244, 0.58), rgba(244, 114, 182, 0.1));
+  backdrop-filter: blur(18px) saturate(170%);
+  -webkit-backdrop-filter: blur(18px) saturate(170%);
+  border: 1px solid rgba(255, 250, 244, 0.66);
   border-radius: 16px;
   padding: 2rem;
   text-align: center;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 18px 50px rgba(128, 74, 92, 0.14);
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, rgba(255, 250, 244, 0.48), transparent);
+  transform: translateX(-120%);
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.stat-card:hover::before {
+  transform: translateX(120%);
 }
 
 .stat-card:hover {
   transform: translateY(-10px) scale(1.05);
-  border-color: #ec4899;
-  box-shadow: 0 15px 50px rgba(236, 72, 153, 0.3);
+  border-color: rgba(244, 114, 182, 0.5);
+  box-shadow: 0 20px 60px rgba(236, 72, 153, 0.3);
 }
 
 .stat-number {
   font-size: 3rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #3b82f6 0%, #ec4899 100%);
+  background: linear-gradient(135deg, #3b2630 0%, #ec4899 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -125,7 +142,7 @@ features:
 }
 
 .stat-label {
-  color: #9ca3af;
+  color: #715761;
   font-size: 1rem;
 }
 
