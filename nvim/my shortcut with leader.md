@@ -1,4 +1,4 @@
-my leader is  `space`
+my leader is `space`
 
 - `leader w` save the file
 - `leader q` quit the file

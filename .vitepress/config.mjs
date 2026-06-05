@@ -90,7 +90,7 @@ export default defineConfig({
           items: [
             { text: '📑 Tab 操作', link: "/nvim/the operation concerning tabs.md" },
             { text: '🔧 GitVim 使用', link: "/nvim/the use of gitvim" },
-            { text: '⌨️ Leader 快捷键', link: "/nvim/my shortcut with <leader>.md" },
+            { text: '⌨️ Leader 快捷键', link: "/nvim/my shortcut with leader.md" },
             { text: '📁 Oil.nvim 文件操作', link: "/nvim/the file operations based on the oil.nvim.md" },
             { text: '🎮 基础命令', link: "/nvim/the basic command.md" },
             { text: '📋 复制粘贴', link: "/nvim/the copy and paste in nvim.md" },
