@@ -357,15 +357,13 @@ body::before {
   background:
     linear-gradient(135deg, rgba(255, 250, 244, 0.58), rgba(244, 114, 182, 0.08)),
     rgba(255, 250, 244, 0.36);
-  backdrop-filter: blur(18px) saturate(160%);
-  -webkit-backdrop-filter: blur(18px) saturate(160%);
   box-shadow: var(--cream-glow);
   animation: docIn 0.5s var(--ease-out) both;
 }
 
 @keyframes docIn {
-  from { opacity: 0; transform: translateY(12px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .VPDoc .content-container {
@@ -473,13 +471,32 @@ body::before {
   -webkit-backdrop-filter: blur(14px);
 }
 
+.VPDoc .aside-container {
+  padding-top: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + var(--vp-doc-top-height, 0px) + 48px) !important;
+  height: 100vh;
+  overflow-y: auto !important;
+  scroll-behavior: smooth;
+  scroll-padding-block: 72px;
+}
+
+.VPDoc .aside-content {
+  min-height: calc(100vh - (var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + var(--vp-doc-top-height, 0px) + 48px));
+}
+
 .VPDocAsideOutline .content {
   border-left-color: var(--glass-border);
+  padding-right: 6px;
 }
 
 .VPDocAsideOutline .outline-link:hover,
 .VPDocAsideOutline .outline-link.active {
   color: var(--rose);
+}
+
+.VPDocAsideOutline .outline-link.active {
+  font-weight: 700;
+  background: rgba(190, 24, 93, 0.08);
+  border-radius: 8px;
 }
 
 .VPFooter {

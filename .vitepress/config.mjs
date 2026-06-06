@@ -27,7 +27,7 @@ export default defineConfig({
     // 代码块主题
     theme: {
       light: 'github-light',
-      dark: 'github-dark'
+      dark: 'github-light'
     },
     // 启用行号
     lineNumbers: true
@@ -54,6 +54,11 @@ export default defineConfig({
         text: '⚙️ Nvim',
         link: '/nvim/',
         activeMatch: '/nvim/'
+      },
+      {
+        text: '🗄️ DSC',
+        link: '/dsc/',
+        activeMatch: '/dsc/'
       }
     ],
 
@@ -64,21 +69,29 @@ export default defineConfig({
           text: '🎯 Algorithm',
           items: [
             {
-              text: '📅 26.3 专题',
-              link: '/algorithm/26.3/',
+              text: '📅 2026-02',
               collapsed: false,
               items: [
-                { text: '26.2.2', link: '/algorithm/26.3/26.2.2.md' },
-                { text: '26.3.8', link: '/algorithm/26.3/26.3.8.md' },
-                { text: '26.3.9', link: '/algorithm/26.3/26.3.9.md' },
-                { text: '26.3.10', link: '/algorithm/26.3/26.3.10.md' },
-                { text: '26.3.11', link: '/algorithm/26.3/26.3.11.md' },
-                { text: '26.3.12', link: '/algorithm/26.3/26.3.12.md' },
-                { text: '26.3.13', link: '/algorithm/26.3/26.3.13.md' },
-                { text: '26.3.14', link: '/algorithm/26.3/26.3.14.md' },
-                { text: '26.3.15', link: '/algorithm/26.3/26.3.15.md' },
-                { text: '26.3.16', link: '/algorithm/26.3/26.3.16.md' },
-                { text: '26.3.17', link: '/algorithm/26.3/26.3.17.md' }
+                { text: '2026-02-02', link: '/algorithm/2026-02/2026-02-02.md' }
+              ]
+            },
+            {
+              text: '📅 2026-03',
+              link: '/algorithm/2026-03/',
+              collapsed: false,
+              items: [
+                { text: '2026-03-08', link: '/algorithm/2026-03/2026-03-08.md' },
+                { text: '2026-03-09', link: '/algorithm/2026-03/2026-03-09.md' },
+                { text: '2026-03-10', link: '/algorithm/2026-03/2026-03-10.md' },
+                { text: '2026-03-11', link: '/algorithm/2026-03/2026-03-11.md' },
+                { text: '2026-03-12', link: '/algorithm/2026-03/2026-03-12.md' },
+                { text: '2026-03-13', link: '/algorithm/2026-03/2026-03-13.md' },
+                { text: '2026-03-14', link: '/algorithm/2026-03/2026-03-14.md' },
+                { text: '2026-03-15', link: '/algorithm/2026-03/2026-03-15.md' },
+                { text: '2026-03-16', link: '/algorithm/2026-03/2026-03-16.md' },
+                { text: '2026-03-17', link: '/algorithm/2026-03/2026-03-17.md' },
+                { text: '2026-03-19', link: '/algorithm/2026-03/2026-03-19.md' },
+                { text: '2026-03-21', link: '/algorithm/2026-03/2026-03-21.md' }
               ]
             }
           ]
@@ -95,6 +108,16 @@ export default defineConfig({
             { text: '🎮 基础命令', link: "/nvim/the basic command.md" },
             { text: '📋 复制粘贴', link: "/nvim/the copy and paste in nvim.md" },
             { text: '🗑️ 删除操作', link: "/nvim/the delete in nvim.md" }
+          ]
+        }
+      ],
+      '/dsc/': [
+        {
+          text: '🗄️ DSC',
+          items: [
+            { text: 'Home', link: '/dsc/' },
+            { text: 'Lab 7', link: '/dsc/lab7.md' },
+            { text: 'Normalization Tool', link: '/dsc/tool.md' }
           ]
         }
       ]
